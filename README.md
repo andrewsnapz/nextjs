@@ -1,1 +1,3 @@
 # nextjs
+
+Practicing using Nextjs
