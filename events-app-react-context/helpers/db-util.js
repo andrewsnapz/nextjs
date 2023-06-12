@@ -1,5 +1,5 @@
 import { MongoClient } from "mongodb";
-import { dbConnectionString } from "../config";
+import { dbConnectionString } from "../config.js";
 
 export async function connectDataBase() {
   const client = await MongoClient.connect(dbConnectionString);
